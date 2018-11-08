@@ -14,6 +14,7 @@ body {
 }
 
 .container {
+    font-size: 22px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -22,8 +23,8 @@ body {
 }
 
 .deck {
-    height: 500px;
-	width: 500px;
+	width: 660px;
+	height: 680px;
 	padding: 1rem;
 	border-radius: 4px;
 	box-shadow: 8px 9px 26px 0 rgba(46, 61, 73, 0.5);
@@ -35,8 +36,8 @@ body {
 }
 
 .deck .card {
-	height: 4rem;
-	width: 4rem;
+	height: 125px;
+	width: 125px;
 	margin: 0.2rem 0.2rem;
 	background: #141214;;
 	font-size: 0;
