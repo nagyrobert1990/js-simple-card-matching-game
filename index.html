@@ -4,9 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="app.css">
     <title>Card-matching Game</title>
 </head>
 <body>
-    
+    <div class="container">
+        <header>
+            <h1>Card-matching Game</h1>
+        </header>
+
+        <section class="score-panel">
+            Current tries: <span class="moves">0</span>
+
+            Best: <span class="best">0</span>
+
+            <button class="btn-restart" onclick=startGame()>
+                RESTART
+            </button>
+        </section>
+
+        <ul class="deck" id="card-deck">
+            <li class="card">
+                <img class="img" src="Assets/images/cards/jenkins.png">
+            </li>
+            <li class="card">
+                <img class="img" src="Assets/images/cards/d3.png">
+            </li>
+            <li class="card match">
+                <img class="img" src="Assets/images/cards/angular.png">
+            </li>
+            <li class="card">
+                <img class="img" src="Assets/images/cards/d3.png">
+            </li>
+            <li class="card">
+                <img class="img" src="Assets/images/cards/jenkins.png">
+            </li>
+            <li class="card match">
+                <img class="img" src="Assets/images/cards/angular.png">
+            </li>
+            <li class="card">
+                <img class="img" src="Assets/images/cards/postcss.png">
+            </li>
+            <li class="card">
+                <img class="img" src="Assets/images/cards/react.png">
+            </li>
+            <li class="card">
+                <img class="img" src="Assets/images/cards/react.png">
+            </li>
+            <li class="card">
+                <img class="img" src="Assets/images/cards/redux.png">
+            </li>
+            <li class="card">
+                <img class="img" src="Assets/images/cards/postcss.png">
+            </li>
+            <li class="card">
+                <img class="img" src="Assets/images/cards/redux.png">
+            </li>
+            <li class="card open show">
+                <img class="img" src="Assets/images/cards/sass.png">
+            </li>
+            <li class="card">
+                <img class="img" src="Assets/images/cards/ts.png">
+            </li>
+            <li class="card">
+                <img class="img" src="Assets/images/cards/supercharge.png">
+            </li>
+            <li class="card">
+                <img class="img" src="Assets/images/cards/webpack.png">
+            </li>
+            <li class="card">
+                <img class="img" src="Assets/images/cards/webpack.png">
+            </li>
+            <li class="card">
+                <img class="img" src="Assets/images/cards/supercharge.png">
+            </li>
+            <li class="card">
+                <img class="img" src="Assets/images/cards/ts.png">
+            </li>
+            <li class="card">
+                <img class="img" src="Assets/images/cards/sass.png">
+            </li>
+        </ul>
+    </div>
 </body>
 </html>
