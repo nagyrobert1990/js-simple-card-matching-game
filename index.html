@@ -5,12 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="app.css">
-    <title>Card-matching Game</title>
+    <title>Memory Game</title>
 </head>
 <body>
-    <div class="container">
+    <div class="start" id="start">
         <header>
-            <h1>Card-matching Game</h1>
+                <h1>Memory Game</h1>
+        </header>
+        <button class="btn-start" onclick=startGame()>START NEW GAME</button>
+    </div>
+    <div class="container" id="game">
+        <header>
+            <h1>Memory Game</h1>
         </header>
 
         <section class="score-panel">
@@ -86,5 +92,6 @@
             </li>
         </ul>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>

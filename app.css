@@ -5,16 +5,25 @@ body {
 	padding: 0;
 }
 
+.start {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    flex-direction: column;
+    visibility: visible;
+}
+
 .container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-direction: column;
+    flex-direction: column;
+    visibility: hidden;
 }
 
 .deck {
-	width: 85%;
-	background: #716F71;
+    height: 500px;
+	width: 500px;
 	padding: 1rem;
 	border-radius: 4px;
 	box-shadow: 8px 9px 26px 0 rgba(46, 61, 73, 0.5);
@@ -26,8 +35,8 @@ body {
 }
 
 .deck .card {
-	height: 3.7rem;
-	width: 3.7rem;
+	height: 4rem;
+	width: 4rem;
 	margin: 0.2rem 0.2rem;
 	background: #141214;;
 	font-size: 0;
